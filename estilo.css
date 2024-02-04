@@ -1,0 +1,56 @@
+.cancion{
+    border: 1px solid red;
+}
+body{
+    font-family: Lato;
+}
+header h1{
+    background-color: #8bc34a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.cancion {
+    display: inline-block;
+    border: none; /* Quita el borde rojo */
+    -webkit-box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.8);
+    box-shadow: 4px 4px 20px 0px #000000cc;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.cancion p {
+    text-align: center;
+    top: 200px;
+    padding: 0%;
+    
+}
+
+.cancion img{
+    display: flex;
+    margin: 20px;
+    border-radius: 5px ;
+    height: 200px;
+}
+
+#song-title{
+    text-align: center;
+    color: #8bc34a;
+    background-color: #fff;
+    padding: 10px;
+    text-size-adjust: 20pt;
+    text-transform: uppercase;
+    position: relative;
+    top: 100px;
+}
+.cancion button{
+    display: inline-block;
+    margin-left: 80px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #8bc34a;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+}
